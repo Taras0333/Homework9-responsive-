@@ -1,0 +1,149 @@
+html, body{
+	width: 100vw;
+	min-height: 100vh;
+}
+header{
+	min-width: 100vw;
+    height: 665px;
+    background: #F4F6F9 url(./images/header-background-img.png);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 163px;
+    background-size: 839px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.logo-icon{
+	margin-top: 63px;
+	cursor: pointer;
+}
+.header-content-wrapper{
+	width: 50%;
+	height: 100%;
+	margin-top: 133px;
+	z-index: 1;
+}
+.header-title{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 48px;
+	letter-spacing: 0.03em;
+	color: #333333;
+}
+.header-discription{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 26px;
+	color: #4F4F4F;
+	margin-top: 30px;
+}
+.header-icon-wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 50px;
+}
+.header-button{
+	cursor: pointer;
+}
+.app-store-icon{
+	margin-right: 36px;
+}
+.what-it-does-section{
+	width: 100vw;
+	height: 592px;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(270deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), rgba(255, 255, 255, 0.5) url(./images/what-it-does-background.png);
+	background-size: 805px;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+.what-it-does-left{
+	width: 60%;
+	height: 100%;
+}
+.what-it-does-right{
+	width: 40%;
+	height: 100%;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.what-it-does{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 21px;
+	color: #00ADEE;
+	cursor: pointer;
+}
+.what-it-does-section-title{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 37px;
+	color: #333333;
+	margin-top: 27px;
+}
+.what-it-does-section-parag{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 23px;
+	color: #4F4F4F;
+}
+.what-it-does-section-parag-top{
+	margin-top: 30px;
+}
+.what-it-does-section-parag-bottom{
+	margin-top: 30px;
+}
+.learn-more{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 21px;
+	color: #00ADEE;
+	margin-top: 22px;
+	cursor: pointer;
+}
+.get-started{
+	width: 100vw;
+	height: 716px;
+	border: 1px solid black;
+}
+.features{
+	width: 100vw;
+	height: 735px;
+	border: 1px solid blue;
+}
+.users-say{
+	width: 100vw;
+	height: 431px;
+	border: 1px solid red;
+}
+.partners{
+	width: 100vw;
+	height: 278px;
+	border: 1px solid gray;
+}
+.get-up{
+	width: 100vw;
+	height: 484px;
+	border: 1px solid green;
+}
+footer{
+	width: 100vw;
+	height: 127px;
+	border: 1px solid blue;
+}
