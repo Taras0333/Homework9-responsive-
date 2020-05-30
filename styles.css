@@ -67,6 +67,31 @@ header{
 .what-it-does-left{
 	width: 60%;
 	height: 100%;
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.what-it-does-section-img-wrapper{
+	height: 364.76px;
+    width: 466px;
+    position: relative;
+}
+.what-it-does-left-arsvchel{
+	position: absolute;
+    width: 90%;
+    top: -22px;
+    left: -64px;
+    z-index: 1;
+}
+.what-it-does-left-video{
+	position: absolute;
+    width: 360px;
+    height: 218.06px;
+    left: 105px;
+    top: 147px;
+    z-index: 0;
 }
 .what-it-does-right{
 	width: 40%;
