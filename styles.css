@@ -272,7 +272,6 @@ header{
 .slider{
 	width: 100%;
 	height: 75%;
-	border: 1px solid green;
 	display: flex;
 	flex-direction: row;
 	position: relative;
@@ -281,21 +280,79 @@ header{
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background-color: blue;
 	z-index: 0;
 	overflow: hidden;
-}
-.slider-track{
-	opacity: 1;
-    width: 4704px;
-    height: 100%;
-    transform: translate3d(-1008px, 0px, 0px);
-    display: flex;
+	display: flex;
     flex-direction: row;
+   	align-items: center;
+   	justify-content: center;
+}
+.slider-bracket{
+	width: 409px;
+	height: 50%;
+	border: 1px solid #828282;
+	margin-right: 35px;
+	border: 1px solid #828282;
+	box-sizing: border-box;
+	border-radius: 4px;
+	display: flex;
+    flex-direction: column;
+    padding-left: 17px;
+    padding-right: 13px;
+
+}
+.slider-bracket:first-child{
+	margin-left: -222px;
+	opacity: 0.5;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	padding-right: 35px;
+}
+.slider-bracket:last-child{
+	margin-right: -206px;
+	opacity: 0.5
+}
+.bracket-top{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 35%;
+}
+.user-name{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	color: #333333;
+	margin-left: 11px;
+}
+.bracket-top-img-twitter{
+	margin-left: auto;
+}
+.bracket-bottom{
+	height: 65%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.bracket-bottom:nth-child(2){
+	height: 65%;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+.user-thoughts{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	color: #4F4F4F;
 }
 .left-opacity{
-	background-color: white;
-	opacity: 0.3;
 	width: 10%;
 	height: 100%;
 	display: flex;
@@ -306,8 +363,6 @@ header{
 	z-index: 1;
 }
 .right-opacity{
-	background-color: white;
-	opacity: 0.3;
 	width: 10%;
 	height: 100%;
 	display: flex;
@@ -315,14 +370,15 @@ header{
 	justify-content: center;
 	align-items: center;
 	margin-left: auto;
+	z-index: 1;
 } 
 .left-button{
 	cursor: pointer;
     padding: 0;
     outline: none;
     font-size: 0;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     top: 35%;
     border-color: #00ADEE;
@@ -336,8 +392,8 @@ header{
     padding: 0;
     outline: none;
     font-size: 0;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     top: 35%;
     border-color: #00ADEE;
