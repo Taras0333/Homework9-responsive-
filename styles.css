@@ -293,6 +293,44 @@ header{
 .get-up{
 	width: 100vw;
 	height: 484px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	background: url(./images/get-up-background.png);
+    background-size: 668px;
+    background-repeat: no-repeat;
+}
+.get-up-content-wrapper{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	height: 100%;
+	justify-content: center;
+}
+.get-up-title{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 37px;
+	color: #333333;
+}
+.get-up-discription{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 25px;
+	color: #4F4F4F;
+	margin-top: 35px;
+}
+.get-up-icon-wrapper{
+	display: flex;
+	flex-direction: row;
+	margin-top: 38px;
+}
+.get-up-icons{
+	cursor: pointer;
 }
 footer{
 	width: 100vw;
