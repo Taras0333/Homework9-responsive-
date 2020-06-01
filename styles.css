@@ -329,7 +329,7 @@ header{
 	color: #333333;
 	margin-left: 11px;
 }
-.bracket-top-img-twitter{
+.twitter-wrapper{
 	margin-left: auto;
 }
 .bracket-bottom{
@@ -419,22 +419,28 @@ header{
 	line-height: 37px;
 	color: #333333;
 }
-.partners-icon-wrapper{
+.partners-icon-section{
 	width: 100%;
 	height: 70%;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	align-items: center;
 }
-.partners-icon:nth-child(1n+1){
+.partners-icon-wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 30%;
+}
+.partners-web:nth-child(1n+1){
 	margin-right: 79px;
 }
-.partners-icon:last-child{
+.partners-web:last-child{
 	margin-right: 0px;
 }
-.partners-icon{
-	cursor: pointer;
-}
+
 .get-up{
 	width: 100vw;
 	height: 484px;
