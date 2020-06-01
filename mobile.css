@@ -1,0 +1,38 @@
+@media (max-width: 720px) {
+ header{
+	background: #F4F6F9;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0px;
+    height: 525px;
+ }
+ .logo-icon{
+	margin-top: 34px;
+	cursor: pointer;
+	}
+ .header-content-wrapper{
+ 	margin-top: 86px;
+ }
+ .header-title{
+ 	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+ }
+ .header-discription{
+ 	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 23px;
+	text-align: center;
+ }
+ .header-button{
+	width: 145.69px;
+	height: 44px;
+	border-radius: 6.85753px;
+	}
+}
