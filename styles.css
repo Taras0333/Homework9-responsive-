@@ -453,6 +453,7 @@ header{
 	justify-content: center;
 	align-items: center;
 	height: 30%;
+	flex-wrap: wrap;
 }
 .partners-web:nth-child(1n+1){
 	margin-right: 79px;
