@@ -521,6 +521,112 @@
 }
 
 
+
+@media (max-width: 720px) {
+.features{
+	height: 2500px;
+	background: #FAFAFA;
+	text-align: center;
+}
+.features-title{
+	margin-top: 46px;
+	color: #333333;
+}
+.features-content-wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: unset;
+	height: 95%;
+	align-items: center;
+}
+.features-content{
+	height: 100%;
+	justify-content: center;
+
+}
+.features-content:first-child{
+	margin-top: 27px;
+}
+.columns{
+	font-size: 13px;
+	height: auto;
+	text-align: center;
+	align-items: center;
+}
+.columns:nth-child(1n + 1){
+	margin-top: 30px;
+}
+.column-discription{
+	color: #4F4F4F;
+}
+.feature-icons{
+	fill: #00adee;
+}
+}
+@media (max-width: 442px) {
+.features{
+	height: 3000px;
+}
+.columns{
+	font-size: 12px;
+}
+}
+@media (max-width: 386px) {
+.features{
+	height: 3400px;
+}
+
+
+
+@media (max-width: 720px) {
+.slider-bracket {
+    width: 164px;
+    height: 35%;
+}
+.user-thoughts{
+	font-size: 6px;
+}
+.user-name{
+	font-size: 10px;
+}
+}
+@media (max-width: 563px) {
+.user-thoughts {
+    font-size: 5px;
+}
+@media (max-width: 442px) {
+.user-thoughts {
+    font-size: 4px;
+}
+.slider-bracket {
+    width: 112px;
+    height: 31%;
+}
+.users-say-title {
+    font-size: 18px;
+}
+.bracket-top-img-twitter{
+	width: 11px;
+}
+.bracket-top-img{
+	width: 16px;
+}
+.right-button, .left-button{
+	width: 40px;
+    height: 40px;
+}
+}
+@media (max-width: 386px) {
+.right-button, .left-button{
+	width: 30px;
+    height: 30px;
+}
+}
+
+
+
+
+
 @media (max-width: 720px) {
 .partners{
 	height: 409px;
@@ -576,7 +682,7 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-
+}
 
 @media (max-width: 720px) {
 footer{
