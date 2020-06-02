@@ -105,7 +105,7 @@
  	font-family: Lato;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 11px;
+	font-size: 13px;
 	line-height: 20px;
 	text-align: center;
  }
@@ -221,7 +221,7 @@
     line-height: 17px;
 }
 .what-it-does-section-title{
-	font-size: 24px;
+	font-size: 30px;
 	line-height: 34px;
 }
 .what-it-does-section-parag-wrapper{
@@ -230,7 +230,7 @@
 	text-align: center;
 }
 .what-it-does-section-parag{
-	font-size: 13px;
+	font-size: 16px;
     line-height: 22px;
 }
 .what-it-does-left-arsvchel {
@@ -319,7 +319,7 @@
     line-height: 17px;
 }
 .what-it-does-section-title{
-	font-size: 24px;
+	font-size: 21px;
 	line-height: 34px;
 }
 .what-it-does-section-parag-wrapper{
@@ -483,10 +483,10 @@
 	font-size: 13px;
 }
 .get-started-title{
-	font-size: 24px;
+	font-size: 30px;
 }
 .get-started-parag{
-	font-size: 13px;
+	font-size: 16px;
 }
 .learn-more-get-started{
 	font-size: 13px;
@@ -505,10 +505,10 @@
 	font-size: 10px;
 }
 .get-started-title{
-	font-size: 18px;
+	font-size: 21px;
 }
 .get-started-parag{
-	font-size: 10px;
+	font-size: 12px;
 }
 .learn-more-get-started{
 	font-size: 10px;
@@ -570,13 +570,16 @@
 .features{
 	height: 1775px;
 }
+.features-title{
+	font-size: 21px;
+}
 .columns{
-	font-size: 15px;
+	font-size: 13px;
 }
 }
 @media (max-width: 386px) {
 .columns{
-	font-size: 14px;
+	font-size: 13px;
 }
 .features-title{
 	font-size: 25px;
@@ -609,7 +612,7 @@
     height: 31%;
 }
 .users-say-title {
-    font-size: 18px;
+    font-size: 21px;
 }
 .bracket-top-img-twitter{
 	width: 11px;
@@ -650,6 +653,9 @@
 .partners-icon{
 	width: 97%;
 }
+.partners-title{
+	font-size: 21px;
+}
 }
 
 
@@ -688,6 +694,12 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.get-up-title{
+	font-size: 21px;
+}
+.get-up-discription{
+	font-size: 13px;
+}
 }
 
 @media (max-width: 720px) {
@@ -703,6 +715,8 @@ footer{
 }
 .footer-mid-wrapper{
 	order: 3;
+	justify-content: space-evenly;
+	width: 100%;
 }   
 .footer-social-media {
 	order: 2;
