@@ -466,18 +466,31 @@ header{
 	width: 100vw;
 	height: 484px;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: flex-end;
 	background: url(./images/get-up-background.png);
     background-size: 668px;
     background-repeat: no-repeat;
 }
-.get-up-content-wrapper{
+.get-up-left{
+	width: 50%;
+	height: 100%;
+}
+.get-up-right{
 	display: flex;
 	flex-direction: column;
 	width: 50%;
 	height: 100%;
 	justify-content: center;
+	align-items: flex-start;
+}
+.get-up-content-wrapper{
+	width: 74%;
+	width: 74%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .get-up-title{
 	font-family: Lato;

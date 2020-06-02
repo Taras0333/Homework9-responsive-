@@ -542,6 +542,43 @@
 
 
 @media (max-width: 720px) {
+.get-up{
+	display: flex;
+	flex-direction: column;
+	background: #FFFFFF;
+	align-items: center;
+	height: 1200px;
+}
+.get-up-left{
+	order: 2;
+	width: 100%;
+	height: 60%;
+	background: url(./images/get-up-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.get-up-right{
+	align-items: center;
+	text-align: center;
+	order: 1;
+	width: 100%;
+	height: 40%;
+}
+}
+@media (max-width: 442px) {
+.get-up-left{
+	order: 2;
+	width: 100%;
+	height: 60%;
+	background: url(./images/get-up-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+@media (max-width: 720px) {
 footer{
 	height: 210px;
 	display: flex;
